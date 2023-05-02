@@ -1,0 +1,873 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    scroll-behavior: smooth;
+}
+.one{
+    width: 99.8%;
+    height: 657px;
+    background-image: url(wow1.jpg);
+    background-size: cover;
+    background-position: center;
+    /*border: 2px solid black;*/
+}
+.nav{
+    width: 99.9%;
+    height: 60px;
+    overflow: hidden;
+    /*box-shadow: 0px 3px 4px gray;*/
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    position: relative;
+}
+.nav ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #780016;
+    position: absolute;
+    left: 0px;
+    bottom:-10px;
+    transition: 0.5s;
+}
+.nav ul li:hover:after{
+    width: 100%;
+}
+.nav span{
+    position: absolute;
+    left: 100px;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    color: #279e64;
+    top: 20px;
+}
+.two{
+    width: 600px;
+    height: 420px;
+    position:relative;
+    top: 70px;
+    left: 100px;
+}
+.s1{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 90px;
+    left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.s2{
+    font-size: 30px;
+    color:  black;
+    position: relative;
+    top: 130px;
+    left: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 500px;
+    height: 60px;
+    position: relative;
+    top: 130px;
+}
+h1{
+    color:#279e64;
+    font-size: 40px;
+    font-family: 'Alkatra', cursive;
+    
+    
+}
+span{
+    color:  #780016;
+    font-family: 'Alkatra', cursive;
+}
+#p1{
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.three{
+    position: relative;
+    top: 150px;
+    right: 5px;
+}
+
+
+
+/*#i1{
+    border-radius: 20px;
+}*/
+#i2,#i3,#i4{
+    padding-left: 10px;
+}
+button{
+    position: relative;
+    top: 170px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+   background-color: #279e64;
+    font-size: 20px;
+    font-family:  Arial, sans-serif;
+}
+button:hover{
+    background-color: #780016;
+    color: #FFFFFF;
+
+}
+.four{
+    width: 200px;
+    height: 540px;
+    position: relative;
+    left: 990px;
+    bottom: 400px;
+    
+}
+.four img{
+    width: 100%;
+    height:100%;
+    /*transition: 1s;*/
+}
+/*.four img:hover{
+    transform: scale(1.2);
+    
+}*/
+#icon1{
+    font-size: 20px;
+    color: #279e64;
+    border: 2px solid #279e64;
+    border-radius:50%;
+    padding: 6px;
+    margin-left: 5px;
+}
+#icon1:hover{
+    color: #FFFFFF;
+    background-color:#279e64;
+}
+.five{
+    width: 99.7%;
+    height: 650px;
+    /*border: 2px solid red;*/
+    margin-top: 15px;
+    position: relative;
+    top: -14px;
+}
+.nav1{
+    width: 99.9%;
+    height: 60px;
+    overflow: hidden;
+    box-shadow: 0px 3px 4px gray;
+}
+.nav1 ul{
+    float: right;
+}
+.nav1 ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    position: relative;
+}
+.nav1 ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color:black ;
+    text-decoration: none;
+}
+.nav1 ul li a:hover{
+    color: #279e64;
+
+}
+.nav1 span{
+    position: absolute;
+    left: 100px;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    color: #279e64;
+    top: 20px;
+}
+.fivetwo{
+    width: 1100px;
+    height: 500px;
+    /*border: 3px solid red;*/
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.five24{
+    width: 450px;
+    height: 550px;
+    /*border: 2px solid black;*/
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+.five24 img{
+    width: 100%;
+    height: 100%;
+
+}
+.five25{
+    width: 500px;
+    height: 350px;
+    /*border: 2px solid blue;*/
+    position: relative;
+    left:530px;
+    top:-420px;
+}
+#span1{
+    font-family: Arial,sans-serif;
+    font-size: 40px;
+    color: black;
+
+}
+#span2{
+    font-family: Arial,sans-serif;
+    font-size: 40px;
+    color:#279e64;
+}
+#span3{
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+.five25 p{
+    font-family: Arial,sans-serif;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    top: 15px;
+}
+#botton1{
+    width: 150px;
+    height: 40px;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+.six{
+    width: 99.7;
+    height:650px;
+    /*border: 2px solid gold;*/
+    position: relative;
+    top: -12px;
+}
+.nav2{
+    width: 99.9%;
+    height: 60px;
+    overflow: hidden;
+    box-shadow: 0px 3px 4px gray;
+}
+.nav2 ul{
+    float: right;
+}
+.nav2 ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    position: relative;
+}
+.nav2 ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color:black ;
+    text-decoration: none;
+}
+.nav2 ul li a:hover{
+    color: #279e64;
+
+}
+.nav2 span{
+    position: absolute;
+    left: 100px;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    color: #279e64;
+    top: 20px;
+}
+.text{
+    width: 230px;
+    height: 80px;
+    /*border: 2px solid palevioletred;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 520px;
+}
+#ts{
+    font-family: Arial,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 30px;
+
+}
+#ts1{
+    font-family: Arial,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:#279e64;
+    position: relative;
+    left: 40px;
+}
+.box{
+    /*border: 2px solid red;*/
+    width: 1100px;
+    height: 320px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 330px;
+    height: 320px;
+    border-top: 6px solid #279e64;
+    border-bottom: 6px solid #279e64;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    border-radius: 25px;
+    transition: 1s;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+#bicon{
+    font-size: 40px;
+    color: #279e64;
+    position: relative;
+    left: 130px;
+    top: 25px;
+}
+#bspan1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    color:black;
+    position: relative;
+    top: 80px;
+    left: -17px;
+}
+#bspan1:hover{
+    color: #279e64;
+}
+.box1 p{
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 60px;
+}
+.para{
+    width: 270px;
+    height: 100px;
+   
+    position: relative;
+    left: 26px;
+    top: 30px;
+}
+.para p{
+    width: 100%;
+}
+#pspan{
+    position: relative;
+    left: 26px;
+    top: 4px;
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+#pspan2{
+    position: relative;
+    left: 48px;
+    top: 9px;
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+}
+#boxbutton{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #279e64;
+    position: absolute;
+    top: 220px;
+    left: 80px;
+}
+#boxbutton:hover{
+    background-color:#780016;
+}
+#boxbutton1{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #279e64;
+    position: relative;
+    top: 72px;
+    left: 80px;
+}
+#boxbutton1:hover{
+    background-color:#780016;
+}
+#boxbutton2{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #279e64;
+    position: relative;
+    top: 72px;
+    left: 80px;
+}
+#boxbutton2:hover{
+    background-color:#780016;
+}
+.seven{
+    width: 99.7%;
+    height: 650px;
+    /*border: 2px solid blue;*/
+    position: relative;
+    top: 195px;
+}
+.nav4{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    box-shadow: 0px 3px 4px gray;
+}
+.nav4 ul{
+    float: right;
+}
+.nav4 ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    position: relative;
+}
+.nav4 ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.nav4 ul li a:hover{
+    color: #279e64;
+
+}
+.nav4 span{
+    position: absolute;
+    left: 100px;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    color: #279e64;
+    top: 20px;
+}
+.contact{
+    width: 250px;
+    height: 50px;
+    /*border: 2px solid blue;*/
+    position: relative;
+    top: 30px;
+    left: 500px;
+}
+.contact span{
+    font-size: 40px;
+    font-family: Arial,sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+#cspan{
+    font-size: 40px;
+    font-family: Arial,sans-serif;
+    color:#279e64;
+    font-weight: bold;
+    
+}
+.inputbox{
+    width: 700px;
+    height: 460px;
+    /*border: 2px solid rebeccapurple;*/
+    position: relative;
+    top: 50px;
+    left: 275px;
+}
+#input1{
+    border: 2px solid gray;
+    width: 320px;
+    height: 60px;
+    box-shadow: 4px 3px 4px 0px gray;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+}
+#input2{
+    width: 320px;
+    height: 60px;
+    border: 2px solid gray;
+    box-shadow: 4px 3px 4px 0px gray;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-left: 6px;
+    font-family: Arial,sans-serif;
+}
+#input3{
+    width: 320px;
+    height: 60px;
+    border: 2px solid gray;
+    box-shadow: 4px 3px 4px 0px gray;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+}
+#input4{
+    width: 320px;
+    height: 60px;
+    border: 2px solid gray;
+    box-shadow: 4px 3px 4px 0px gray;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-left: 6px;
+    font-family: Arial,sans-serif;
+
+}
+#input5{
+    width: 670px;
+    height: 230px;
+    border: 2px solid gray;
+    box-shadow: 4px 3px 4px 0px gray;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+}
+#ibox{
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #279e64;
+    position: relative;
+    top: 19px;
+    left: 250px;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+}
+@media screen  and (max-width : 900px)
+{
+    .one{
+        width: 1200px;
+    }
+    .nav ul li{
+        margin-right: 80px;
+    }
+    .nav1,.nav2,.nav4{
+        width: 1200px;
+        height: 60px;
+        overflow: hidden;
+        /*box-shadow: 0px 3px 4px gray;*/
+    }
+    .nav1 ul li,.nav2 ul li,.nav4 ul li{
+        margin-right: 80px;
+    }
+    .five24{
+        width:350px;
+        height: 450px;
+    }
+    .five24 img{
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    .five25{
+       width: 500px;
+       height: 300px;
+       /*border: 2px solid red;*/
+       margin-right: 40px;
+    }
+    .four{
+        width: 150px;
+        height: 450px;
+    }
+    .four img{
+        position: relative;
+        top: 70px;
+        left: -80px;
+    }
+    #span1{
+        position: relative;
+        left: -70px;
+        top: 40px;
+    }
+    #span2{
+        position: relative;
+        left: -70px;
+        top: 40px;
+    }
+    #span3{
+        position: relative;
+        left: -70px;
+        top: 50px;
+    }
+    .five25 p{
+        position: relative;
+        left: -70px;
+        top: 60px;
+    }
+    #botton1{
+        position: relative;
+        left: -70px;
+        top: 80px;
+    }
+    #ts{
+        position: relative;
+        left: -30px;
+    }
+    #ts1{
+        position: relative;
+        left: -20px;
+
+    }
+    .box{
+        width: 1000px;
+        height: 320px;
+        position: relative;
+        top: 80px;
+        left: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box1{
+        width: 300px;
+        height: 300px;
+        border-top: 6px solid #279e64;
+        border-bottom: 6px solid #279e64;
+        border-left: 3px solid grey;
+        border-right: 3px solid grey;
+        border-radius: 25px;
+        transition: 1s;
+    }
+    .box1:hover{
+        transform: scale(1.1);
+    }
+    #bicon{
+        font-size: 40px;
+        color: #279e64;
+        position: relative;
+        left: 130px;
+        top: 25px;
+    }
+    #bspan1{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial,sans-serif;
+        color:black;
+        position: relative;
+        top: 80px;
+        left: -17px;
+    }
+    #bspan1:hover{
+        color: #279e64;
+    }
+    .box1 p{
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+        position: relative;
+        top: 60px;
+    }
+    .para{
+        width: 270px;
+        height: 100px;
+       
+        position: relative;
+        left: 26px;
+        top: 30px;
+    }
+    .para p{
+        width: 100%;
+    }
+    #pspan{
+        position: relative;
+        left: 26px;
+        top: 4px;
+        color: black;
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+    }
+    #pspan2{
+        position: relative;
+        left: 48px;
+        top: 9px;
+        color: black;
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+    }
+    #boxbutton{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        color: #FFFFFF;
+        background-color: #279e64;
+        position: absolute;
+        top: 220px;
+        left: 80px;
+    }
+    #boxbutton:hover{
+        background-color:#780016;
+    }
+    #boxbutton1{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        color: #FFFFFF;
+        background-color: #279e64;
+        position: relative;
+        top: 72px;
+        left: 80px;
+    }
+    #boxbutton1:hover{
+        background-color:#780016;
+    }
+    #boxbutton2{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        color: #FFFFFF;
+        background-color: #279e64;
+        position: relative;
+        top: 72px;
+        left: 80px;
+    }
+    #boxbutton2:hover{
+        background-color:#780016;
+    }
+}
+@media screen  and (min-width :1500px)
+{
+    .four{
+        height: 570px;
+        position: relative;
+        left: 1100px;
+        bottom: 350px;
+    }
+    .one{
+        height: 745px;
+    }
+    #span1{
+        font-size: 50px;
+        position: relative;
+        left: 150px;
+       
+    }
+    #span2{
+        font-size: 50px;
+        position: relative;
+        left: 150px;
+        
+    }
+    #span3{
+        font-size: 20px;
+        position: relative;
+        left: 150px; 
+    }
+    .five25 p{
+        font-size: 18;
+        position: relative;
+        left: 150px; 
+        
+    }
+    #botton1{
+        position: relative;
+        left: 150px; 
+       
+    }
+    .five24 img{
+        position: relative;
+        left: 150px;
+    }
+    #ts{
+        font-size: 50px;
+        position: relative;
+        left: 150px;
+    }
+    #ts1{
+        font-size: 50px;
+        position: relative;
+        left: 150px;
+    }
+    .box{
+        /*border: 2px solid red;*/
+        width: 1200px;
+        height: 320px;
+        position: relative;
+        top: 100px;
+        left: 150px;
+    }
+    .box1{
+        width: 350px;
+        height: 360px;
+    }
+    .seven{
+        height: 745px;
+        /*border: 2px solid red;*/
+        position: relative;
+        top: 280px;
+    }
+    .six{
+        /*border: 2px solid gold;*/
+        height: 745px;
+    }
+    .contact span{
+        position: relative;
+        left: 120px;
+        top: 20px;
+    }
+    .cspan{
+        position: relative;
+        left: 120px;
+        top: 20px;
+    }
+    #input1,#input2,#input3,#input4,#input5{
+        position: relative;
+        left: 110px;
+        top: 40px;
+    }
+    #ibox{
+        position: relative;
+        left: 110px;
+        top: 60px;
+    }
+}
